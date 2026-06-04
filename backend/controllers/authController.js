@@ -15,6 +15,15 @@ const registerUser = async (req, res) => {
         10
       );
 
+
+      const test = await pool.query(`
+  SELECT current_database(),
+         current_user,
+         current_schema()
+`);
+
+console.log(test.rows);
+
     const newUser =
       await pool.query(
         `INSERT INTO users

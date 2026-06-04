@@ -17,7 +17,7 @@ router.post(
         "Image uploaded successfully 🚀",
 
       imageUrl:
-        `http://localhost:5000/uploads/${req.file.filename}`,
+        `https://connectnow-backend-bk7y.onrender.com/uploads/${req.file.filename}`,
 
     });
 
@@ -37,7 +37,7 @@ router.post(
         "Document uploaded successfully 🚀",
 
       documentUrl:
-        `http://localhost:5000/uploads/${req.file.filename}`,
+        `https://connectnow-backend-bk7y.onrender.com/uploads/${req.file.filename}`,
 
     });
 

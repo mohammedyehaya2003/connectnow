@@ -48,7 +48,7 @@ Today, I completed the backend foundation setup.
 | express.json() | Reads JSON data from frontend requests     |
 | app.get()      | Creates API route                          |
 | app.listen()   | Starts backend server                      |
-| localhost:5000 | Local backend server URL                   |
+| https://connectnow-backend-bk7y.onrender.com | Local backend server URL                   |
 
 
 🚀 Day 2 Progress
