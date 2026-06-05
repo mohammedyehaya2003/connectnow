@@ -16,13 +16,7 @@ const registerUser = async (req, res) => {
       );
 
 
-      const test = await pool.query(`
-  SELECT current_database(),
-         current_user,
-         current_schema()
-`);
-
-console.log(test.rows);
+      
 
     const newUser =
       await pool.query(
